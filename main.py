@@ -21,6 +21,7 @@ def get_time():
     now = datetime.utcnow()
     return {"current_time_utc": now.isoformat()}
 
-@app.get("/key")
-def read_keyt():
-    return {"key": openai_api_key}
+# @app.get("/key")
+# def read_keyt():
+#     return {"key": openai_api_key}
+
